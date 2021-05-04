@@ -29,6 +29,7 @@ function ChatScreen() {
       messages={messages}
       onSend={Fire.shared.send}
       user={user}
+      renderUsernameOnMessage
       bottomOffset={insets.bottom}
     />
   );
